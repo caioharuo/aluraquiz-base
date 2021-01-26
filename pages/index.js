@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>My page title</title>
+        <title>Valorant QUIZ</title>
         <meta property="og:title" content="My page title" key="title" />
         <meta
           property="og:image"

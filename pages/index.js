@@ -1,14 +1,16 @@
-import Head from 'next/head';
-import styled from 'styled-components';
-import React from 'react';
-import { useRouter } from 'next/router';
+import Head from "next/head";
+import styled from "styled-components";
+import React from "react";
+import { useRouter } from "next/router";
 
-import db from '../db.json';
-import Widget from '../src/components/Widget';
-import QuizBackground from '../src/components/QuizBackground';
-import Footer from '../src/components/Footer';
-import GitHubCorner from '../src/components/GitHubCorner';
-import QuizLogo from '../src/components/QuizLogo';
+import db from "../db.json";
+import Widget from "../src/components/Widget";
+import QuizBackground from "../src/components/QuizBackground";
+import Footer from "../src/components/Footer";
+import GitHubCorner from "../src/components/GitHubCorner";
+import QuizLogo from "../src/components/QuizLogo";
+import Input from "../src/components/Input";
+import Button from "../src/components/Button";
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -23,7 +25,7 @@ export const QuizContainer = styled.div`
 
 export default function Home() {
   const router = useRouter();
-  const [name, setName] = React.useState('');
+  const [name, setName] = React.useState("");
 
   return (
     <QuizBackground backgroundImage={db.bg}>
@@ -49,16 +51,17 @@ export default function Home() {
                 router.push(`/quiz?name=${name}`);
               }}
             >
-              <input
+              <Input
+                name="nomeDoUsuario"
                 onChange={(event) => {
                   setName(event.target.value);
                 }}
                 placeholder="Diz ai seu nome"
+                value={name}
               />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-                {name}
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>

@@ -1,27 +1,41 @@
 {
   "bg": "https://scontent.fcgh34-1.fna.fbcdn.net/v/t1.0-9/139369975_490873948979309_3292305700757819868_o.png?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_eui2=AeF3T5ep79hP3a0-5EzjJX4SALLrN95i45oAsus33mLjmtg8bgGBzQ9EoXq6S5PeMAKdPHZTJYMmlRzOkTq5aMu8&_nc_ohc=HwUccTgFm3kAX9Bq2oz&_nc_ht=scontent.fcgh34-1.fna&oh=654b780757590a3e84043b6b141f23db&oe=60332A80",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "QUIZ VALORANT",
+  "description": "Você conhece tudo sobre VALORANT?",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://blog.2amgaming.com/wp-content/uploads/2020/07/valorant.jpg",
+      "title": "Quantos agentes existem no jogo atualmente? (29/01/2021)",
+      "description": "Vamos começar com uma fácil",
       "answer": 2,
-      "alternatives": [".elemento", "*elemento", "#elemento", "%elemento"]
+      "alternatives": ["11", "12", "13", "10"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://www.gamerevolution.com/assets/uploads/2020/05/valorant-agents-profile.jpg",
+      "title": "A Habilidade Erupção das Brumas é de qual personagem ?",
+      "description": "Essa é fácil heim",
+      "answer": 3,
+      "alternatives": ["Pheonix", "Brimstone", "Omen", "Jett"]
+    },
+    {
+      "image": "https://setwallpapers.fra1.digitaloceanspaces.com/preview/54488582b19cd4dc814d5ea0aae1313f.jpg",
+      "title": "Qual o nome desse agente ?",
+      "description": "Toc-toc",
       "answer": 0,
-      "alternatives": [
-        "background: linear-gradient(#e66465, #9198e5);",
-        "background: gradient(#e66465, #9198e5);"
-      ]
+      "alternatives": ["Breach", "Brimstone", "Cypher", "Yoru"]
+    },
+    {
+      "image": "https://conteudo.imguol.com.br/c/entretenimento/55/2020/05/07/raze-valorant-1588882798494_v2_1920x1081.png",
+      "title": "Qual o nome do 'carrinho' da Raze ?",
+      "description": "Bombinho Já Foi!",
+      "answer": 2,
+      "alternatives": ["Bombinho", "Boom", "Bumba", "Pikachu"]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://aluraquiz.edlanioj.vercel.app/",
+    "https://quiz-games.gabrielwolf-dev.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#ef5350",

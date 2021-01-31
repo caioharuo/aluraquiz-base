@@ -39,6 +39,18 @@ export default function App({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet"
         />
+        
+        <title>Alura - Valorant QUIZ</title>
+
+        <meta property="og:title" content="Valorant QUIZ" key="title" />
+        <meta
+          property="og:image"
+          content="https://scontent.fcgh34-1.fna.fbcdn.net/v/t1.0-9/139369975_490873948979309_3292305700757819868_o.png?_nc_cat=111&ccb=2&_nc_sid=730e14&_nc_eui2=AeF3T5ep79hP3a0-5EzjJX4SALLrN95i45oAsus33mLjmtg8bgGBzQ9EoXq6S5PeMAKdPHZTJYMmlRzOkTq5aMu8&_nc_ohc=HwUccTgFm3kAX9Bq2oz&_nc_ht=scontent.fcgh34-1.fna&oh=654b780757590a3e84043b6b141f23db&oe=60332A80"
+          key="image"
+        />
+
+        <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1295457884038467586/zflMaBTL_400x400.jpg" />
+
       </Head>
       <ThemeProvider theme={theme}>
         <GlobalStyle />
